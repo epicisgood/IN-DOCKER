@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/ooxcrimson/inter.git
+RUN git clone https://github.com/epicisgood/education.git
 
-WORKDIR /inter
+WORKDIR /education
 
 RUN npm install
 

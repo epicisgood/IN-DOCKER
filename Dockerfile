@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/epicisgood/education.git
 
-WORKDIR /Interstellar
+WORKDIR /education
 
 RUN npm install
 

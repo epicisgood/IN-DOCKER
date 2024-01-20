@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/interstellarnetwork/interstellar.git
+RUN git clone https://github.com/epicisgood/education.git
 
 WORKDIR /Interstellar
 

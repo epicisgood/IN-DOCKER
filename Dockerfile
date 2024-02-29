@@ -9,3 +9,4 @@ WORKDIR /education
 RUN npm install
 
 CMD npm start
+#dsfsadfsafsd
